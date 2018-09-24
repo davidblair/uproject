@@ -1,0 +1,60 @@
+
+#msgForm {
+
+    padding: 3px;
+
+}
+#msgForm textarea {
+    border: 3px solid;
+    padding: 10px;
+    width:100%;
+}
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 50px 0;
+    height:calc(65vh - 40px);
+    overflow-y: scroll;
+}
+#messages li {
+    font-family: Comfortaa, Arial, sans-serif;
+}
+#messages li, #userList li, #channelList li {
+    padding: 5px 10px;
+    word-wrap: break-word;
+}
+#messages li:nth-child(odd) {
+    background: #eee;
+}
+
+.fa-plus-circle, .fa-archive, .fa-undo {
+    /*cursor:pointer;*/
+    font-size:1.5em;
+    /*margin-left: 15px;*/
+    float:right;
+    color: #0074d9;
+}
+.channelMenu li {
+    cursor: pointer;
+}
+.channelMenu {
+    min-width: 220px;
+}
+.modal-footer p {
+    float:left;
+    color:red;
+}
+#currentChannel {
+    text-align: center;
+    background-color: #0074d9;
+    color: white;
+}
+.textCenter {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+#archiveChannelBtn, #unarchiveChannelBtn {
+    margin-left: 25px;
+}
